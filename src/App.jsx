@@ -1,4 +1,4 @@
-
+import Counter from './Counter';
 import './App.css'
 
 function App() {
@@ -20,6 +20,10 @@ alert(newNum);
     <>
      
       <h3>Vite + React</h3>
+<Counter></Counter>
+
+
+
       {/* <button onclick="handleClick()">Click Me</button> */}
       <button onClick={handleClick}>Click Me</button>
       <button onClick={function handleClick2(){
