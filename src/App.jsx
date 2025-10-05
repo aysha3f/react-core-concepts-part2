@@ -1,4 +1,5 @@
 import Counter from './Counter';
+import Batsman from './Batsman';
 import './App.css'
 
 function App() {
@@ -20,6 +21,7 @@ alert(newNum);
     <>
      
       <h3>Vite + React</h3>
+      <Batsman></Batsman>
 <Counter></Counter>
 
 
