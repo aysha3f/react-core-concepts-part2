@@ -8,6 +8,7 @@ import Players from './Players';
 import './App.css'
 import { Suspense } from 'react';
 import Counters from './Counters';
+import Showhide from './Showhide';
 
 
 // const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users")
@@ -45,6 +46,9 @@ alert(newNum);
     <>
      
       <h3>Vite + React</h3>
+
+<Showhide></Showhide>
+
 
 <Counters></Counters>
 
