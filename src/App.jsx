@@ -7,6 +7,7 @@ import Posts from './Posts';
 import Players from './Players';
 import './App.css'
 import { Suspense } from 'react';
+import Counters from './Counters';
 
 
 // const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users")
@@ -44,7 +45,11 @@ alert(newNum);
     <>
      
       <h3>Vite + React</h3>
-<Players></Players>
+
+<Counters></Counters>
+
+
+{/* <Players></Players> */}
 
 
   {/* <Suspense fallback={<h3>Loading.....</h3>}>
