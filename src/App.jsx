@@ -9,6 +9,7 @@ import './App.css'
 import { Suspense } from 'react';
 import Counters from './Counters';
 import Showhide from './Showhide';
+import Data from './Data';
 
 
 // const fetchUsers = fetch("https://jsonplaceholder.typicode.com/users")
@@ -46,7 +47,7 @@ alert(newNum);
     <>
      
       <h3>Vite + React</h3>
-
+<Data></Data>
 <Showhide></Showhide>
 
 
